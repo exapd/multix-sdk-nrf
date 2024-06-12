@@ -62,7 +62,7 @@ manifest:
     - name: multix-zephyr
       remote: zephyrproject
       repo-path: sdk-zephyr
-      revision: v3.5.99-ncs1
+      revision: test_local_zephyr
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
