@@ -22,7 +22,7 @@ manifest:
       url-base: https://github.com/nrfconnect
     # Third-party repository sources:
     - name: zephyrproject
-      url-base: https://github.com/exapd/
+      url-base: https://github.com/exapd
     - name: throwtheswitch
       url-base: https://github.com/ThrowTheSwitch
     - name: armmbed
@@ -59,9 +59,9 @@ manifest:
     #
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/introduction/index.html
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/modules.html
-    - name: multix-zephyr
+    - name: zephyr
       remote: zephyrproject
-      repo-path: sdk-zephyr
+      repo-path: multix-sdk-zephyr
       revision: test_local_zephyr
       import:
         # In addition to the zephyr repository itself, NCS also
