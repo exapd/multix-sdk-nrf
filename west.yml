@@ -62,7 +62,7 @@ manifest:
     - name: zephyr
       remote: zephyrproject
       repo-path: multix-sdk-zephyr
-      revision: v3.5.99ncs1-qspi-power-ctrl
+      revision: fota_dev_sdk_update
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
