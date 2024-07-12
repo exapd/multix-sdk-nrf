@@ -58,6 +58,7 @@ manifest:
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/introduction/index.html
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/modules.html
     - name: zephyr
+      remote: zephyrproject
       repo-path: multix-sdk-zephyr
       revision: fota_dev_old_sdk
       import:
